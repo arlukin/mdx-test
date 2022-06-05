@@ -8,6 +8,7 @@ export default defineConfig(({ mode }) => {
       react(),
       mdx({
         // See https://mdxjs.com/advanced/plugins
+        providerImportSource: "@mdx-js/react",
         remarkPlugins: [],
         rehypePlugins: [],
       }),
